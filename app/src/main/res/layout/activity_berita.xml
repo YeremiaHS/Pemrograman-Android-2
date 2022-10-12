@@ -6,4 +6,33 @@
     android:layout_height="match_parent"
     tools:context=".berita">
 
+    <TextView
+        android:id="@+id/main_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BERITA HEHE"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <TextView
+        android:id="@+id/news_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:scrollbars="vertical"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Nunc ultricies ornare mi, non vulputate urna feugiat a.
+        Maecenas egestas commodo elementum.
+        Curabitur semper nisi id arcu laoreet, sed commodo nunc consequat.
+        Integer luctus dolor pulvinar magna consectetur, non sollicitudin sem eleifend.Ut suscipit, dolor nec placerat tristique, erat ante dapibus nisl, sed rhoncus ligula turpis ut enim. Quisque laoreet nisi felis, vitae ultricies leo dictum ut. Integer sit amet purus placerat, porttitor sem eget, sagittis lorem.
+
+Quisque quis dui sit amet lacus dignissim venenatis. In egestas orci ante, sit amet aliquet turpis ornare ut. Curabitur metus nunc, rutrum nec nisi id, consequat semper odio. In elementum vitae lorem at tincidunt. Sed eleifend vitae velit et convallis. Maecenas elementum odio augue, eget fringilla ligula finibus eu. Curabitur ac nunc sem. In placerat ac magna eget viverra. Etiam maximus tortor nec magna vestibulum consequat. Morbi facilisis felis turpis, ut consectetur nisl varius non. Cras consequat nisl ante, a bibendum lorem porta in. Donec porta lorem quis est euismod ultrices. Sed pulvinar dolor in arcu mattis gravida.
+
+Nam sollicitudin turpis ut felis consequat, et pulvinar massa eleifend. Ut et sollicitudin nisi. Cras quis massa orci. Aliquam commodo sagittis odio a aliquet. Nam volutpat, velit a luctus rhoncus, tortor magna fringilla lorem, sit amet blandit purus lorem nec mi. Quisque sollicitudin, tellus sit amet efficitur placerat, enim dui euismod libero, eu commodo sapien massa vitae ante. Pellentesque scelerisque luctus tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce cursus, diam sit amet pretium suscipit, elit augue tempor urna, ut feugiat felis libero quis sem. Phasellus tristique porta dui, non feugiat mauris eleifend id. Praesent vehicula consequat risus, id sodales ex pulvinar sit amet. In fringilla aliquam nunc id aliquet. Nunc tortor elit, volutpat nec consectetur sed, mollis in est. Nullam at rutrum nisi, in porta dui. Phasellus facilisis tempor eros sed luctus. Etiam in dolor a turpis euismod fermentum et at augue. Nam vel ante volutpat, mattis tellus non, semper dui. Cras malesuada pulvinar neque non sodales. Sed et dui et leo viverra gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent pretium gravida mauris, non facilisis nisi. Quisque non lacinia justo. Suspendisse auctor in ipsum luctus pretium. Morbi a justo interdum augue porta auctor sit amet non enim. Suspendisse sagittis libero tellus, at sollicitudin tortor consequat eget. Aliquam imperdiet arcu nec augue aliquet sollicitudin. Nam nec vestibulum massa. Duis non quam ac mauris tempus imperdiet.
+
+Aenean vitae luctus magna. Aenean iaculis, sapien non fringilla facilisis, nisi nulla eleifend enim, et aliquet enim risus id est. Morbi rhoncus elementum massa mattis fringilla. Curabitur vitae massa nunc. Nullam a tincidunt lacus, eget molestie arcu. Phasellus pulvinar lacus non ante rutrum, non efficitur quam molestie. Nullam vel risus et lectus tempor rhoncus eget et ipsum. Donec sagittis consequat quam, ac malesuada arcu viverra id. Suspendisse scelerisque bibendum tempus. Quisque tristique mattis nunc, vitae posuere erat auctor luctus."
+        app:layout_constraintTop_toBottomOf="@+id/main_text"
+        tools:layout_editor_absoluteX="0dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

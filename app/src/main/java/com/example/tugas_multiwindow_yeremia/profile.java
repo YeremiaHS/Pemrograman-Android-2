@@ -18,6 +18,7 @@ public class profile extends AppCompatActivity {
         setContentView(R.layout.activity_profile);
         Button btnProfil = findViewById(R.id.btn_profil);
         Button btnBerita = findViewById(R.id.btn_berita);
+        Button btnKeluar = findViewById(R.id.btn_keluar);
 
         btnProfil.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -30,6 +31,14 @@ public class profile extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(profile.this, berita.class));
+            }
+        });
+
+        btnKeluar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+                System.exit(0);
             }
         });
     }

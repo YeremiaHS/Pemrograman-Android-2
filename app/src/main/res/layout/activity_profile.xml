@@ -34,4 +34,12 @@
         android:layout_marginHorizontal="40dp"
         android:text="Berita"/>
 
+    <Button
+        android:id="@+id/btn_keluar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="40dp"
+        android:text="Keluar"/>
+
 </androidx.appcompat.widget.LinearLayoutCompat>
